@@ -1,0 +1,27 @@
+{
+  "name": "ezpwmforraspberry",
+  "version": "1.0.0",
+  "description": "a pwm library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xujialiang/ezPWMForRaspberry.git"
+  },
+  "keywords": [
+    "pwm",
+    "ezpwm",
+    "raspberry"
+  ],
+  "author": "xujialiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xujialiang/ezPWMForRaspberry/issues"
+  },
+  "homepage": "https://github.com/xujialiang/ezPWMForRaspberry#readme",
+  "dependencies": {
+    "rpio": "^2.4.2"
+  }
+}
