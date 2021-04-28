@@ -32,12 +32,16 @@ For access to i²c, PWM, and SPI, or if you are running an older kernel which
 does not have the `bcm2835-gpiomem` module, you will need to run your programs
 as root for access to `/dev/mem`.
 
+### 安装
 
+```
+npm install ezpwmforraspberry --save
+```
 
 ### 初始化
 
 ```javascript
-const ezPWM = require('ezPWMForRaspberry.js');
+const ezPWM = require('ezpwmforraspberry');
 
 const pwm = new ezPWM();
 
