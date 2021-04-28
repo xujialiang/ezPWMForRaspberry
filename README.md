@@ -35,7 +35,7 @@ as root for access to `/dev/mem`.
 ### 安装
 
 ```
-npm install ezpwmforraspberry --save
+npm i ezpwmforraspberry --save
 ```
 
 ### 初始化
